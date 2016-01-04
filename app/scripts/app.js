@@ -1,5 +1,4 @@
 (function () {
-    console.log("app.js start");
     function config($stateProvider, $locationProvider) {
         $locationProvider
             .html5Mode({
@@ -26,5 +25,4 @@
         .module('blocJams', ['ui.router'])
         .config(config);
     
-    console.log("app.js end");
 })();
