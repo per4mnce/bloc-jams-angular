@@ -33,6 +33,7 @@
             currentBuzzObject.bind('timeupdate', function() {
                 $rootScope.$apply(function() {
                     SongPlayer.currentTime = currentBuzzObject.getTime();
+                    SongPlayer.volume = currentBuzzObject.getVolume();
                 });
             });
 
@@ -80,6 +81,8 @@
         * @type {Number}
         */
         SongPlayer.currentTime = null;
+ 		SongPlayer.volume  = 0;
+        SongPlayer.maxVolume  = 100;
         
         /**
         * @function play
@@ -120,8 +123,6 @@
             
             if (currentSongIndex < 0) {
                 stopSong(song);
-//                currentBuzzObject.stop();
-//                SongPlayer.currentSong.playing = null;
             } else {
                 var song = currentAlbum.songs[currentSongIndex];
                 setSong(song);
@@ -140,8 +141,6 @@
             
             if (currentSongIndex < currentAlbum.songs) {
                 stopSong(song);
-//                currentBuzzObject.stop();
-//                SongPlayer.currentSong.playing = null;
             } else {
                 var song = currentAlbum.songs[currentSongIndex];
                 setSong(song);
@@ -157,6 +156,12 @@
         SongPlayer.setCurrentTime = function(time) {
             if (currentBuzzObject) {
                 currentBuzzObject.setTime(time);
+            }
+        };
+        
+        SongPlayer.setVolume = function(volume){
+            if(currentBuzzObject){
+ 		         currentBuzzObject.setVolume(volume);
             }
         };
         
