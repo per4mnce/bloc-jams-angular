@@ -11,6 +11,10 @@ AngularJS, CSS, jQuery, Buzz music library
 ![Screen View](https://static.wixstatic.com/media/045a70_b2b6229d86b14bc2a5cbaaa5d5f324a3.jpg/v1/fill/w_1570,h_822,al_c,q_90,usm_0.66_1.00_0.01/045a70_b2b6229d86b14bc2a5cbaaa5d5f324a3.jpg)
 ![Screen View](https://static.wixstatic.com/media/045a70_f70fefa88c17452b8d0fb8b2c1cc9bc5.jpg/v1/fill/w_1586,h_822,al_c,q_90,usm_0.66_1.00_0.01/045a70_f70fefa88c17452b8d0fb8b2c1cc9bc5.jpg)
 
+## Made with my mentor:
+Mark Carpenter from [Bloc](http://bloc.io).<br />
+![Mark Carpenter](https://cdn-photos.bloc.io/mentor_data_photos/square/116/Screen_Shot_2014-10-20_at_5.17.18_PM.PNG)
+
 ## Configuration
 The project uses Grunt to run tasks in development.
 Install the project dependencies by running:
