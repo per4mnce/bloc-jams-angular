@@ -1,8 +1,11 @@
-#BLOC-JAMS-ANGULAR
-A music player application used for learning HTML, CSS, AngularJS
+# BLOC-JAMS-ANGULAR
+
+A music player application used for learning AngularJS.
+This is a rewrite of [Bloc-Jams](https://github.com/per4mnce/bloc-jams) using AngularJS
+ 
 
 ## Configuration
-The project uses Grunt to run tasks in development. Thoroughly review our [resource on using 
+The project uses Grunt to run tasks in development.
 Install the project dependencies by running:
 
 ```
